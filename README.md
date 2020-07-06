@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 내 개발 일지
 
 You can use the [editor on GitHub](https://github.com/k89jy/MyDevelopmentNoteBook/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
