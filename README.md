@@ -1,13 +1,7 @@
-## 내 개발 일지
-
-
-
 ### 컴퓨터 네트워크
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+Layer 0:
+-  
 
 # Header 1
 ## Header 2
