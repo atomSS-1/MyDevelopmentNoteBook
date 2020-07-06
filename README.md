@@ -19,9 +19,13 @@
 
 
 ### Linux
-## ubuntu
 
-about ubuntu
+1. ubuntu
+
+*  about ubuntu
+
+2. centOs
+
 
 ### AWS
 
@@ -29,7 +33,7 @@ about ubuntu
 
 ### Node Js
 
-### Post Man
+### PostMan
 
 ### MySql Workbench
 
