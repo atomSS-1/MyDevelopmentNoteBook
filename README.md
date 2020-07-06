@@ -23,14 +23,26 @@
 *  ubuntu
    *  about Ubuntu
       *  유분투는 데비안 구조와 인프라를 기반으로 한다. 6개월마다 업데이트(LTS:release every two years) 되며 데스크탑 서버, IOT 와 로봇 에디션이 있다.
-      *  공식 웹사이트: Ubuntu.com
-      *  데스트탑 버젼 다운로드: https://ubuntu.com/download/desktop/thank-you?version=20.04&architecture=amd64
+      *  [공식 웹사이트](Ubuntu.com)
+      *  [데스트탑 버젼 다운로드](https://ubuntu.com/download/desktop/thank-you?version=20.04&architecture=amd64)
+   *  Ubuntu 명령어들
+      *  
 *  centOs
    *  about CentOs
       *  레드헷 제휴로 개발한 커뮤터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
       *  레드헷 엔터프라이즈 리눅스의 소스 코드를 그대로 가져와 빌드해 내놓으며 이과정에서 이루어지는 변형은 레드헷의 상표가 잘리고 그자리에 CentOS의 상표가 붙는(상표권 분쟁을 피하기 위해)
       정도뿐이다.
-      * CentOS 다운로드: https://www.centos.org/download/
+      *  [공식 웹사이트](https://www.centos.org/)
+      *  [CentOS 다운로드](https://www.centos.org/download/)
+      
+*  데비안과 레드헷 엩터프라이즈 리눅스 또는 페도라 세스템의 차이점
+   *  리눅스 설치 과정은 복잡하다. 우분트는 이러한 설치과정을 보편적인 사용자가 수용할 수 있는 부분만 제외하고 나머지는 자동화해 놓음으로써 몇 번을 클릭만으로 설치가 가능하다.
+      레드헷 시스템의 경우에는 사용자에게 워크스테이션 도는 서버, 설치할 개별 패키지 선택, 그리고 설정 옵션등 많은 설치 옵션을 제공한다.
+   *  소프트웨어 관리 툴
+      *  데비안: APT(Advanced Package Tool): 설치, 사제, 질의 업데이트 기능 사용
+      *  레드헷: RPM
+   *  GUI 툴이나 드롭다운 메뉴에서의 이들의 위치 등은 완전히 다르다.
+      
 
 
 ### AWS
