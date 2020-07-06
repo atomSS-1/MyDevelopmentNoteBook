@@ -32,7 +32,13 @@
       *  사용자 및 그룹 작동하기
          *  su 혹은 sudo로 root 사용자를 사용한다
       *  root 로그인을 비활성화 시켜 보안을 강화한다.
-      *  `useradd` 사용자 
+      *  `useradd` 사용자 추가
+      *  `userdel` 사용자 삭제
+      *  `groupadd` 구룹 추가
+   *  내장된 방화벽 추축하기
+   *  시스템 로그 구성하기
+   *  고급 보안 기능
+      * 보안 강화 리눅스(SELinux)
    
    *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
        
@@ -52,6 +58,8 @@
       *  레드헷: RPM
    *  GUI 툴이나 드롭다운 메뉴에서의 이들의 위치 등은 완전히 다르다.
       
+
+### 프로그래밍 언어론
 
 
 ### AWS
