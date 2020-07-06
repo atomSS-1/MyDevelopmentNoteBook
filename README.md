@@ -1,3 +1,5 @@
+### 내 개발 일지
+
 ### 컴퓨터 네트워크
 
 *  Layer 0 관련 개념
@@ -25,8 +27,15 @@
       *  유분투는 데비안 구조와 인프라를 기반으로 한다. 6개월마다 업데이트(LTS:release every two years) 되며 데스크탑 서버, IOT 와 로봇 에디션이 있다.
       *  [공식 웹사이트](Ubuntu.com)
       *  [데스트탑 버젼 다운로드](https://ubuntu.com/download/desktop/thank-you?version=20.04&architecture=amd64)
-   *  Ubuntu 명령어들
-      *  
+   *  Ubuntu 권한 설정 명령어들
+      *  리눅스 시스템에서 보안은 먼저 시스템에 대한 사용자 계정 및 서비스 엑세스를 제한하는 것이다. 그런 후, 보안은 주위가 설정 한대로 방어가 되었다는 것을 의미한다.
+      *  사용자 및 그룹 작동하기
+         *  su 혹은 sudo로 root 사용자를 사용한다
+      *  root 로그인을 비활성화 시켜 보안을 강화한다.
+      *  `useradd` 사용자 
+   
+   *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
+       
 *  centOs
    *  about CentOs
       *  레드헷 제휴로 개발한 커뮤터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
