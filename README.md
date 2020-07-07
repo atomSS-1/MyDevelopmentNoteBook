@@ -72,7 +72,7 @@
 
 
 ### AWS
-  
+  #### AWS EC2 (생성, 연결, 보안그룹 설정) 실습  
   
   *  VPC(Virtual Private Cloud): AWS에서 제공하는 가상 컴퓨팅(네트워크) 활경이다.  
   참고: [AWS VPC란 무엇입니까?](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/what-is-amazon-vpc.html)
@@ -96,7 +96,7 @@
   ![2020-07-07 11_12_15-인스턴스 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86690356-d01a9900-c042-11ea-9eba-91b745daf208.png)
 
   putty로 SSH 접속 시도해 보겠다.
-  -  실패:[원인 참고]:(https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format) 
+  -  실패:[원인 참고](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format) 
   -  puttygen을 설치 한다. [참고](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)
   
   ![2020-07-07 12_05_03-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698285-22ab8380-c04a-11ea-93f1-344c8f68c60a.png)
