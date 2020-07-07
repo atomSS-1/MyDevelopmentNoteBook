@@ -72,7 +72,40 @@
 
 
 ### AWS
+  
+  
+  *  VPC(Virtual Private Cloud): AWS에서 제공하는 가상 컴퓨팅(네트워크) 활경이다.  
+  참고: [AWS VPC란 무엇입니까?](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/what-is-amazon-vpc.html)
+  
+  *  Region: VPC가 생성될 지리적 위치이다. 필자는 ap-northeast-1으로 설정하였다.  
+  참고: 리젼마다 서비스 제약이 있을수 있다.
+  
+  1.  루트 사용자로 콘솔에 로그인한다
+  
+  1.  EC2 인스턴스(RedHet, t2.micro)를 생성해 보겠다.
+  
+  ![2020-07-07 11_02_47-인스턴스 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86688864-706fbe00-c041-11ea-89b6-628957ae09d5.png)  
 
+  키 페어를 생성한다.  
+  참고: 키 페어란 public_key로서 AWS EC2에 로그인할떄의 필요한 공개키이다.
+  
+  ![2020-07-07 11_06_43-인스턴스 마법사 시작 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86689479-fbe94f00-c041-11ea-8a63-9afd6e7fcd46.png)
+
+  인스턴스가 특정한 아이디로 등록되었으며 생성중이다.  
+  
+  ![2020-07-07 11_12_15-인스턴스 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86690356-d01a9900-c042-11ea-9eba-91b745daf208.png)
+
+  putty로 SSH 접속 시도해 보겠다.
+  -  실패:[원인 참고]:(https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format) 
+  -  puttygen을 설치 한다. [참고](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)
+  
+  ![2020-07-07 12_05_03-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698285-22ab8380-c04a-11ea-93f1-344c8f68c60a.png)
+
+  -  redhet ec2에 로그인 성공
+  ![2020-07-07 12_05_58-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698423-4078e880-c04a-11ea-8856-feff4e508fcd.png)
+
+  
+  
 ### RDBMS
 
 ### Node Js
