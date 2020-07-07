@@ -72,7 +72,7 @@
 
 
 ### AWS
-  #### AWS EC2 (생성, 연결, 보안그룹 설정) 실습  
+  ## AWS EC2 (생성, 연결, 보안그룹 설정) 실습  
   
   *  VPC(Virtual Private Cloud): AWS에서 제공하는 가상 컴퓨팅(네트워크) 활경이다.  
   참고: [AWS VPC란 무엇입니까?](https://docs.aws.amazon.com/ko_kr/vpc/latest/userguide/what-is-amazon-vpc.html)
