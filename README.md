@@ -80,6 +80,12 @@
   *  Region: VPC가 생성될 지리적 위치이다. 필자는 ap-northeast-1으로 설정하였다.  
   참고: 리젼마다 서비스 제약이 있을수 있다.
   
+  *  IAM(Identity and Access Management) 에서 aws console 로그인 권한 정책을 설정할 수 잇다.
+  
+  ![2020-07-08 11_44_42-Window](https://user-images.githubusercontent.com/12722674/86869060-d4ad8300-c110-11ea-89cf-d4aea65b0f4c.png)
+
+  
+  
   1.  루트 사용자로 콘솔에 로그인한다
   
   1.  EC2 인스턴스(RedHet, t2.micro)를 생성해 보겠다.
