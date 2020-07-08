@@ -108,6 +108,15 @@
   
 ### RDBMS
 
+  *   RDS(Relational DataBase Service)
+      *  rds 생성
+     ![rds_생성](https://user-images.githubusercontent.com/12722674/86885766-cb341300-c130-11ea-88db-2099f9535f5f.png)
+      *  rds 암호 생성
+      ![rds_암호](https://user-images.githubusercontent.com/12722674/86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739.png)
+      *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
+      ![브마스터_슬래이](https://user-images.githubusercontent.com/12722674/86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9.png)
+  
+
 ### Node Js
   *  설치 과정
      *  [node js 다운로드](https://nodejs.org/ko/download/)
@@ -119,10 +128,17 @@
      
      현제 필자의 컴퓨터에는 12.13.0 버젼이 설치되어있다.
      
+     * 웹 프레임 워크인 express를 설치해 보겠다.
+     
 
 ### PostMan
 
+  * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
+
 ### MySql Workbench
+
+  *  rds접속을 위해 client용으로 mySql Workbench를 사용해 보겠다.
+     
 
 ### github
 
