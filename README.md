@@ -131,6 +131,11 @@
      현제 필자의 컴퓨터에는 12.13.0 버젼이 설치되어있다.
      
      * 웹 프레임 워크인 express를 설치해 보겠다.
+       *  `npm init` 을 통해 초기화 한다.  
+          ![2020-07-08 18_00_17-Window](https://user-images.githubusercontent.com/12722674/86899441-f6286200-c144-11ea-9105-f1d175d53d1e.png)  
+          package.json 파일
+       *  `npm install expresss --save` 을 통해 express를 설치한다.
+       *  다음 프로세스: [참고](https://www.deok.me/entry/NodeJS-NodeJS-Express-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0) 
      
 
 ### PostMan
@@ -152,4 +157,12 @@
 
 ### Slack
 
+   *  협업 도구인 slack 사용법을 알아보자  
+          
+  [slack 링크](https://slack.com/intl/en-kr/)
+
 ### Trello
+
+   *   협업 도구인 Trello 사용법을 알아보자  
+   
+   [Trello 링크](https://trello.com/?&aceid=&adposition=&adgroup=105703216008&campaign=9843285496&creative=437184392125&device=c&keyword=%2Btrello&matchtype=b&network=g&placement=&ds_kids=p53016482385&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=Cj0KCQjw3ZX4BRDmARIsAFYh7ZKwFUSDuqnxqn_binH58nRGZ8kuIiJWJUMzUtjGJ8YBDesJJePC9m0aAtxaEALw_wcB&gclsrc=aw.ds)
