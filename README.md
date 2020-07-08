@@ -114,8 +114,10 @@
       *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
       ![브마스터_슬래이](https://user-images.githubusercontent.com/12722674/86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9.png)
       
-  *   Nosql vs MySql  
-      [참고](https://siyoon210.tistory.com/130)
+  *   Nosql vs MySql:[참고](https://siyoon210.tistory.com/130)
+      
+      *  MySql 1:1, 1:n, n:m 구조 설명: [참고](https://victorydntmd.tistory.com/30)
+      *  MySql ACID 설명: [참고](https://victorydntmd.tistory.com/129)
 
 ### Node Js
   *  설치 과정
