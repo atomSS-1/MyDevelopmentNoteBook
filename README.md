@@ -41,7 +41,12 @@
       * 보안 강화 리눅스(SELinux)
    
    *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
-       
+   
+   * 로그 기록 작업: [참고](http://blog.naver.com/PostView.nhn?blogId=innerbus_co&logNo=221439737250&parentCategoryNo=&categoryNo=11&viewDate=&isShowPopularPosts=true&from=search)
+   
+   
+   * 백업 작업: [참고](https://mamya.tistory.com/224)   
+   
 *  centOs
    *  about CentOs
       *  레드헷 제휴로 개발한 커뮤터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
@@ -58,17 +63,6 @@
       *  레드헷: RPM
    *  GUI 툴이나 드롭다운 메뉴에서의 이들의 위치 등은 완전히 다르다.
       
-
-### Node Js
-  *  설치 과정
-     *  [node js 다운로드](https://nodejs.org/ko/download/)
-      ![노드다운로em](https://user-images.githubusercontent.com/12722674/86677033-2f25e100-c036-11ea-9d83-064e700a54f0.png)
-      
-     *  설치 확인 명령어: `node -v`
-     
-     ![2020-07-07 09_44_15-명령 프롬프트](https://user-images.githubusercontent.com/12722674/86677341-790ec700-c036-11ea-806d-cc781812e8fd.png)
-     
-     현제 필자의 컴퓨터에는 12.13.0 버젼이 설치되어있다.
 
 
 ### AWS
@@ -115,6 +109,16 @@
 ### RDBMS
 
 ### Node Js
+  *  설치 과정
+     *  [node js 다운로드](https://nodejs.org/ko/download/)
+      ![노드다운로em](https://user-images.githubusercontent.com/12722674/86677033-2f25e100-c036-11ea-9d83-064e700a54f0.png)
+      
+     *  설치 확인 명령어: `node -v`
+     
+     ![2020-07-07 09_44_15-명령 프롬프트](https://user-images.githubusercontent.com/12722674/86677341-790ec700-c036-11ea-806d-cc781812e8fd.png)
+     
+     현제 필자의 컴퓨터에는 12.13.0 버젼이 설치되어있다.
+     
 
 ### PostMan
 
