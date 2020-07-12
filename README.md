@@ -115,7 +115,8 @@
      ![86885766-cb341300-c130-11ea-88db-2099f9535f5f](https://user-images.githubusercontent.com/12722674/87238591-6da90a80-c43f-11ea-954c-77668705c951.png)
 
       *  rds 암호 생성
-      ![rds_암호](https://user-images.githubusercontent.com/12722674/86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739.png)
+      ![86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739](https://user-images.githubusercontent.com/12722674/87238633-17889700-c440-11ea-9f6b-1b237288018d.png)
+
       *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
       ![브마스터_슬래이](https://user-images.githubusercontent.com/12722674/86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9.png)
       
