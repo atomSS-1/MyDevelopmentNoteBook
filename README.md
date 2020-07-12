@@ -116,8 +116,9 @@
       *  rds 암호 생성  
       ![86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739](https://user-images.githubusercontent.com/12722674/87238633-17889700-c440-11ea-9f6b-1b237288018d.png)
 
-      *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
-      ![브마스터_슬래이](https://user-images.githubusercontent.com/12722674/86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9.png)
+      *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)  
+      ![86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9](https://user-images.githubusercontent.com/12722674/87238665-836aff80-c440-11ea-8d9e-146b4579254f.png)
+
       
   *   Nosql vs MySql:[참고](https://siyoon210.tistory.com/130)
       
