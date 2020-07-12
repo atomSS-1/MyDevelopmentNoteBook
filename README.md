@@ -74,7 +74,8 @@
   
   *  IAM(Identity and Access Management) 에서 aws console 로그인 권한 정책을 설정할 수 잇다.
   
-  ![2020-07-08 11_44_42-Window](https://user-images.githubusercontent.com/12722674/86869060-d4ad8300-c110-11ea-89cf-d4aea65b0f4c.png)
+ 
+![86869060-d4ad8300-c110-11ea-89cf-d4aea65b0f4c](https://user-images.githubusercontent.com/12722674/87238560-d8a61180-c43e-11ea-8282-de3f01fd2ddd.png)
 
   
   
@@ -87,11 +88,13 @@
   키 페어를 생성한다.  
   참고: 키 페어란 public_key로서 AWS EC2에 로그인할떄의 필요한 공개키이다.
   
-  ![2020-07-07 11_06_43-인스턴스 마법사 시작 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86689479-fbe94f00-c041-11ea-8a63-9afd6e7fcd46.png)
+  ![86689479-fbe94f00-c041-11ea-8a63-9afd6e7fcd46](https://user-images.githubusercontent.com/12722674/87238579-30447d00-c43f-11ea-993b-780313de20c2.png)
+
 
   인스턴스가 특정한 아이디로 등록되었으며 생성중이다.  
   
-  ![2020-07-07 11_12_15-인스턴스 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86690356-d01a9900-c042-11ea-9eba-91b745daf208.png)
+ ![86690356-d01a9900-c042-11ea-9eba-91b745daf208](https://user-images.githubusercontent.com/12722674/87238585-4eaa7880-c43f-11ea-81a8-2178ff6935f7.png)
+
 
   putty로 SSH 접속 시도해 보겠다.
   -  실패:[원인 참고](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format) 
@@ -100,7 +103,8 @@
   ![2020-07-07 12_05_03-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698285-22ab8380-c04a-11ea-93f1-344c8f68c60a.png)
 
   -  redhet ec2에 로그인 성공
-  ![2020-07-07 12_05_58-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698423-4078e880-c04a-11ea-8856-feff4e508fcd.png)
+  ![86698423-4078e880-c04a-11ea-8856-feff4e508fcd](https://user-images.githubusercontent.com/12722674/87238602-887b7f00-c43f-11ea-9408-caadeb6d155d.png)
+
 
   
   
@@ -108,7 +112,8 @@
 
   *   RDS(Relational DataBase Service)
       *  rds 생성
-     ![rds_생성](https://user-images.githubusercontent.com/12722674/86885766-cb341300-c130-11ea-88db-2099f9535f5f.png)
+     ![86885766-cb341300-c130-11ea-88db-2099f9535f5f](https://user-images.githubusercontent.com/12722674/87238591-6da90a80-c43f-11ea-954c-77668705c951.png)
+
       *  rds 암호 생성
       ![rds_암호](https://user-images.githubusercontent.com/12722674/86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739.png)
       *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
@@ -122,7 +127,7 @@
 ### Node Js
   *  설치 과정
      *  [node js 다운로드](https://nodejs.org/ko/download/)
-      ![노드다운로em](https://user-images.githubusercontent.com/12722674/86677033-2f25e100-c036-11ea-9d83-064e700a54f0.png)
+      ![86677033-2f25e100-c036-11ea-9d83-064e700a54f0](https://user-images.githubusercontent.com/12722674/87238613-bcef3b00-c43f-11ea-91bd-c4e5f70860d2.png)
       
      *  설치 확인 명령어: `node -v`
      
@@ -132,7 +137,8 @@
      
      * 웹 프레임 워크인 express를 설치해 보겠다.
        *  `npm init` 을 통해 초기화 한다.  
-          ![2020-07-08 18_00_17-Window](https://user-images.githubusercontent.com/12722674/86899441-f6286200-c144-11ea-9105-f1d175d53d1e.png)  
+           ![86899441-f6286200-c144-11ea-9105-f1d175d53d1e](https://user-images.githubusercontent.com/12722674/87238621-e5773500-c43f-11ea-8c71-65c18924bf69.png)
+ 
           package.json 파일
        *  `npm install expresss --save` 을 통해 express를 설치한다.
        *  다음 프로세스: [참고](https://www.deok.me/entry/NodeJS-NodeJS-Express-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0) 
