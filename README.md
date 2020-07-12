@@ -72,7 +72,7 @@
   *  Region: VPC가 생성될 지리적 위치이다. 필자는 ap-northeast-1으로 설정하였다.  
   참고: 리젼마다 서비스 제약이 있을수 있다.
   
-  *  IAM(Identity and Access Management) 에서 aws console 로그인 권한 정책을 설정할 수 잇다.
+  *  IAM(Identity and Access Management) 에서 aws console 로그인 권한 정책을 설정할 수 잇다.  
   
  
 ![86869060-d4ad8300-c110-11ea-89cf-d4aea65b0f4c](https://user-images.githubusercontent.com/12722674/87238560-d8a61180-c43e-11ea-8282-de3f01fd2ddd.png)
@@ -81,12 +81,12 @@
   
   1.  루트 사용자로 콘솔에 로그인한다
   
-  1.  EC2 인스턴스(RedHet, t2.micro)를 생성해 보겠다.
+  1.  EC2 인스턴스(RedHet, t2.micro)를 생성해 보겠다.  
   
   ![2020-07-07 11_02_47-인스턴스 _ EC2 Management Console - Chrome](https://user-images.githubusercontent.com/12722674/86688864-706fbe00-c041-11ea-89b6-628957ae09d5.png)  
 
   키 페어를 생성한다.  
-  참고: 키 페어란 public_key로서 AWS EC2에 로그인할떄의 필요한 공개키이다.
+  참고: 키 페어란 public_key로서 AWS EC2에 로그인할떄의 필요한 공개키이다.  
   
   ![86689479-fbe94f00-c041-11ea-8a63-9afd6e7fcd46](https://user-images.githubusercontent.com/12722674/87238579-30447d00-c43f-11ea-993b-780313de20c2.png)
 
@@ -98,11 +98,10 @@
 
   putty로 SSH 접속 시도해 보겠다.
   -  실패:[원인 참고](https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format) 
-  -  puttygen을 설치 한다. [참고](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)
-  
+  -  puttygen을 설치 한다. [참고](https://devops.ionos.com/tutorials/use-ssh-keys-with-putty-on-windows/)  
   ![2020-07-07 12_05_03-ec2-user@ip-172-31-14-114_~](https://user-images.githubusercontent.com/12722674/86698285-22ab8380-c04a-11ea-93f1-344c8f68c60a.png)
 
-  -  redhet ec2에 로그인 성공
+  -  redhet ec2에 로그인 성공  
   ![86698423-4078e880-c04a-11ea-8856-feff4e508fcd](https://user-images.githubusercontent.com/12722674/87238602-887b7f00-c43f-11ea-9408-caadeb6d155d.png)
 
 
@@ -111,10 +110,10 @@
 ### DataBasse
 
   *   RDS(Relational DataBase Service)
-      *  rds 생성
+      *  rds 생성  
      ![86885766-cb341300-c130-11ea-88db-2099f9535f5f](https://user-images.githubusercontent.com/12722674/87238591-6da90a80-c43f-11ea-954c-77668705c951.png)
 
-      *  rds 암호 생성
+      *  rds 암호 생성  
       ![86885838-e7d04b00-c130-11ea-93c3-3a13c39c3739](https://user-images.githubusercontent.com/12722674/87238633-17889700-c440-11ea-9f6b-1b237288018d.png)
 
       *  다중 A-Z(마스터 슬래이브 구조이다, 프리티어 버젼에서는 제공되지 않는다)
@@ -127,10 +126,10 @@
 
 ### Node Js
   *  설치 과정
-     *  [node js 다운로드](https://nodejs.org/ko/download/)
+     *  [node js 다운로드](https://nodejs.org/ko/download/)  
       ![86677033-2f25e100-c036-11ea-9d83-064e700a54f0](https://user-images.githubusercontent.com/12722674/87238613-bcef3b00-c43f-11ea-91bd-c4e5f70860d2.png)
       
-     *  설치 확인 명령어: `node -v`
+     *  설치 확인 명령어: `node -v`  
      
      ![2020-07-07 09_44_15-명령 프롬프트](https://user-images.githubusercontent.com/12722674/86677341-790ec700-c036-11ea-806d-cc781812e8fd.png)
      
