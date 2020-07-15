@@ -33,6 +33,7 @@
       *  사용자 및 그룹 작동하기
          *  su 혹은 sudo로 root 사용자를 사용한다
       *  root 로그인을 비활성화 시켜 보안을 강화한다.
+      *  root 유저 비밀번호 변경 참고:[URL](https://studyforus.tistory.com/223)
     
    *  내장된 방화벽 추축하기
    *  시스템 로그 구성하기
