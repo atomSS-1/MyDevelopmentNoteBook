@@ -148,7 +148,15 @@
        *  미들웨어 작성: [참고](https://expressjs.com/ko/guide/using-middleware.html)  
        *  html 파일 랜더링: [참고](http://jeonghwan-kim.github.io/express-js-3-%ED%85%9C%ED%94%8C%EB%A6%BFjade/)
      
-
+### jade(template engine)
+    *  기본 구조
+    doctype 5
+    html
+     head
+       title = title
+       link(rel='stlyesheet', href= '/stlyesheet/style.css)
+       body
+        block content
 ### PostMan
 
   * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
