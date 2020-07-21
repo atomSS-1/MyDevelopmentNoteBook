@@ -48,7 +48,7 @@
    * 백업 작업: [참고](https://mamya.tistory.com/224)  
    * vim
       *  copy & paste: [참고](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
-   
+   * history 명령어 실행: [보기]:(https://unix.stackexchange.com/questions/275053/is-there-any-way-to-execute-commands-from-history)
 *  centOs
    *  about CentOs
       *  레드헷 제휴로 개발한 커뮤터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
