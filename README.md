@@ -45,7 +45,9 @@
    * 로그 기록 작업: [참고](http://blog.naver.com/PostView.nhn?blogId=innerbus_co&logNo=221439737250&parentCategoryNo=&categoryNo=11&viewDate=&isShowPopularPosts=true&from=search)
    
    
-   * 백업 작업: [참고](https://mamya.tistory.com/224)   
+   * 백업 작업: [참고](https://mamya.tistory.com/224)  
+   * vim
+      *  copy & paste: [참고](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
    
 *  centOs
    *  about CentOs
