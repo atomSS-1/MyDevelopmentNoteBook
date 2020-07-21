@@ -167,6 +167,7 @@
      
 
 ### github
+  * git pull vs git clone [참고](https://stackoverflow.com/questions/3620633/what-is-the-difference-between-pull-and-clone-in-git)
 
 ### Anaconda
 
