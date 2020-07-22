@@ -149,7 +149,7 @@
        *  다음 프로세스: [참고](https://www.deok.me/entry/NodeJS-NodeJS-Express-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
        *  미들웨어 작성: [참고](https://expressjs.com/ko/guide/using-middleware.html)  
        *  html 파일 랜더링: [참고](http://jeonghwan-kim.github.io/express-js-3-%ED%85%9C%ED%94%8C%EB%A6%BFjade/)
-     
+       *  쿠키 설정: [참고](https://medium.com/wasd/node-js-%EC%99%80-cookie-session%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%A0%95%EB%B3%B4-%EC%A0%80%EC%9E%A5-part-1-b66d8b35a6e6)
 ### jade(template engine)
     *  기본 구조
     doctype 5
