@@ -42,7 +42,8 @@
       
    *  패키지 설치 명령어
       * apt-get install [패키지명]
-   
+   *  디스크 공간 체크 명령어
+      * df -h --total
    *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
    
    * 로그 기록 작업: [참고](http://blog.naver.com/PostView.nhn?blogId=innerbus_co&logNo=221439737250&parentCategoryNo=&categoryNo=11&viewDate=&isShowPopularPosts=true&from=search)
@@ -154,7 +155,7 @@
        *  html 파일 랜더링: [참고](http://jeonghwan-kim.github.io/express-js-3-%ED%85%9C%ED%94%8C%EB%A6%BFjade/)
        *  쿠키 설정: [참고](https://medium.com/wasd/node-js-%EC%99%80-cookie-session%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%A0%95%EB%B3%B4-%EC%A0%80%EC%9E%A5-part-1-b66d8b35a6e6)
 ### jade(template engine)
-    *  기본 구조
+      기본 구조
     doctype 5
     html
      head
@@ -162,9 +163,19 @@
        link(rel='stlyesheet', href= '/stlyesheet/style.css)
        body
         block content
+### python
+  *  파이썬3 설치
+     
+     *   `sudo apt-get install python` 
+  
+  *  파이썬 버전(설치) 확인  
+     *   `python3 --version
+ 
+  *  파이썬 실행
+    *    `python3`
 ### PostMan
 
-  * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
+   * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
 
 ### MySql Workbench
 
