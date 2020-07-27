@@ -168,11 +168,12 @@
      
      *   `sudo apt-get install python` 
   
-  *  파이썬 버전(설치) 확인  
+  *  파이썬 버전(설치) 확인    
      *   `python3 --version`
  
-  *  파이썬 실행
-    *    `python3`
+  *  파이썬 실행  
+     *   `python3`  
+    
 ### PostMan
 
    * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
