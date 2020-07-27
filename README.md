@@ -169,7 +169,7 @@
      *   `sudo apt-get install python` 
   
   *  파이썬 버전(설치) 확인  
-     *   `python3 --version
+     *   `python3 --version`
  
   *  파이썬 실행
     *    `python3`
