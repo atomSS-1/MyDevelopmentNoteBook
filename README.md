@@ -39,6 +39,9 @@
    *  시스템 로그 구성하기
    *  고급 보안 기능
       * 보안 강화 리눅스(SELinux)
+      
+   *  패키지 설치 명령어
+      * apt-get install [패키지명]
    
    *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
    
