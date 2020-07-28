@@ -197,7 +197,8 @@
    *  협업 도구인 slack 사용법을 알아보자  
           
   [slack 링크](https://slack.com/intl/en-kr/)
-
+  
+   *  [ 다운로드](https://slack.com/intl/en-kr/downloads/windows)
 ### Trello
 
    *   협업 도구인 Trello 사용법을 알아보자  
