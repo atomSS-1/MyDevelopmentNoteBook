@@ -156,16 +156,15 @@
        *   `express` 명령어를 통해 folder 구조를 잡는다.
        *  미들웨어 작성: [참고](https://expressjs.com/ko/guide/using-middleware.html)  
        *  html 파일 랜더링: [참고](http://jeonghwan-kim.github.io/express-js-3-%ED%85%9C%ED%94%8C%EB%A6%BFjade/)
-       *  쿠키 설정: [참고](https://medium.com/wasd/node-js-%EC%99%80-cookie-session%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9D%98-%EC%A0%95%EB%B3%B4-%EC%A0%80%EC%9E%A5-part-1-b66d8b35a6e6)
-### jade(template engine)
-      기본 구조
-    doctype 5
-    html
-     head
-       title = title
-       link(rel='stlyesheet', href= '/stlyesheet/style.css)
-       body
-        block content
+       *  라우터 파일  
+       `res.render('[파일명].html`, [json 포맷]'
+       *  app.js 파일 코드  
+      ` app.use(express.static('views'));`  
+       `app.use(express.static(path.join(__dirname, 'public/html')));`  
+       `app.set('views', path.join(__dirname, '/views'));`  
+`app.engine('html', ejs.renderFile);`  
+`app.set('view engine', 'ejs');`  
+
 ### python
   *  파이썬3 설치
      
