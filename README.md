@@ -193,7 +193,39 @@
 ### Juypeter noteBook
 
 ### Docker
-
+   * Ubuntu에서 docker 설치 
+       * 구버전 삭제  
+     
+     `$ sudo apt-get remove docker docker-engine docker.io containerd runc$ `  
+     
+       * Docker repositroy를 셋업 한다
+        `sudo apt-get install \
+        apt-transport-https \
+        ca-certificates \
+        curl \
+        gnupg-agent \
+        software-properties-common`  
+    
+      * Docker 공식 GPG키를 설치 한다.  
+    
+      `$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`  
+    
+      * 키 finger print가 있는지 검색한다  
+    `$ sudo apt-key fingerprint 0EBFCD88`  
+      *  안정적인 repository를 셋업한다
+    ` sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"`  
+   
+   * Docker 를 설치 한다
+   
+   `sudo apt-get install docker-ce docker-ce-cli containerd.io`
+   
+     * Docker 엔진이 설치 되어 있는지 확인한다  
+   
+   `sudo docker run hello-world`
+   
 ### Slack
 
    *  협업 도구인 slack 사용법을 알아보자  
