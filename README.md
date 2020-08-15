@@ -226,6 +226,11 @@
    
    `sudo docker run hello-world`
    
+   * Docker ngnix 설치 실습 [참고]:(https://minimilab.tistory.com/8)
+   
+      ***  
+   ![ngxnix](https://user-images.githubusercontent.com/12722674/90309683-89636d00-df25-11ea-9c17-3861e1a03412.PNG)
+
 ### Slack
 
    *  협업 도구인 slack 사용법을 알아보자  
