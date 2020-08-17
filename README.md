@@ -132,6 +132,17 @@
       
       *  MySql 1:1, 1:n, n:m 구조 설명: [참고](https://victorydntmd.tistory.com/30)
       *  MySql ACID 설명: [참고](https://victorydntmd.tistory.com/129)
+      
+ 
+ 
+ *   MongoDB
+ 
+     * 설치 과정  
+       cmd 에서 mogoDB 실행하기
+       [참고](https://pro-self-studier.tistory.com/56)
+     * 완료 cmd log  
+       ![mongodb](https://user-images.githubusercontent.com/12722674/90360838-af108380-e097-11ea-8eac-bfe33eb3b1fc.PNG)
+
 
 ### Node Js
   *  설치 과정
