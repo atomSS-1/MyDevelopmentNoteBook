@@ -204,12 +204,15 @@
 ### Juypeter noteBook
 
 ### Docker
+
+   
+
    * Ubuntu에서 docker 설치 
        * 구버전 삭제  
      
      `$ sudo apt-get remove docker docker-engine docker.io containerd runc$ `  
      
-       * Docker repositroy를 셋업 한다
+       * Docker repositroy를 설치 한다
         `sudo apt-get install \
         apt-transport-https \
         ca-certificates \
@@ -240,8 +243,15 @@
    * Docker ngnix 설치 실습 [참고]:(https://minimilab.tistory.com/8)
    
       ***  
-   ![ngxnix](https://user-images.githubusercontent.com/12722674/90309683-89636d00-df25-11ea-9c17-3861e1a03412.PNG)
-
+   ![ngxnix](https://user-images.githubusercontent.com/12722674/90309683-89636d00-df25-11ea-9c17-3861e1a03412.PNG)  
+   
+   * docker 프로세스 확인  
+     docker -ps
+   * docker 프로세스 삭제  
+     docker rm [container-id]
+   * docker 이미지 삭제
+     docker rmi [이미지 이름] 
+   *   
 ### Slack
 
    *  협업 도구인 slack 사용법을 알아보자  
