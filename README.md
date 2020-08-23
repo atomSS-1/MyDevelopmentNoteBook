@@ -246,12 +246,15 @@
    ![ngxnix](https://user-images.githubusercontent.com/12722674/90309683-89636d00-df25-11ea-9c17-3861e1a03412.PNG)  
    
    * docker 프로세스 확인  
-     docker -ps
+     `docker -ps`
    * docker 프로세스 삭제  
-     docker rm [container-id]
+     `docker rm [container-id]`
    * docker 이미지 삭제
-     docker rmi [이미지 이름] 
-   *   
+     `docker rmi [이미지 이름]` 
+   * docker 파일 build
+     `docker build [OPTIONS] PATH | URL | -`
+     
+     
 ### Slack
 
    *  협업 도구인 slack 사용법을 알아보자  
