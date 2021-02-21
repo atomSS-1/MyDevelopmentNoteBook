@@ -180,7 +180,7 @@ hoisting
 
 1. 변수 선언이 함수 맨 위로 간다
  예시 코드 ))
-`
+```
 var a = "first"
 var b = "second"
 var c = "third"
@@ -188,12 +188,12 @@ var c = "third"
 console.log(d)
 
 var d;
-`
+```
 
 
 추측 된 결과: reference error
 실제 결과 : undefined
-`
+```
 var a = "first"
 var b = "second"
 var c = "third"
@@ -203,7 +203,7 @@ d = "fourth"
 console.log(d)
 
 var d;
-`
+```
 실제 결과 : fourth
 
 이런 현상을 hoisiting이라고 한다
