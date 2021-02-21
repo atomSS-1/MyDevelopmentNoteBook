@@ -212,7 +212,14 @@ hoisiting의 단점:
 
 browser의 성능을 떨어뜨린다.
 
+## var vs let vs const
 
+
+var 는 중복 선언이 가능하다
+
+let은 중복 선언이 불가능 하므로 var를 권장하지 않는다
+
+const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
 
 ### python
   *  파이썬3 설치
