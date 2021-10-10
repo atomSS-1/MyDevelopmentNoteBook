@@ -9,7 +9,7 @@
   * 저자의 예상: 로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화가 일어났다)
   * 실제 결과: to be continued....
 * revert vs reset
-   *
+   * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다 continued....
 ### 컴퓨터 네트워크
 
 *  Layer 1 관련 개념
