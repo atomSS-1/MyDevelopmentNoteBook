@@ -1,5 +1,15 @@
 ### 백엔드 인프라 기본 환경 셋팅을 위한 기반 지식 정리
-
+### Git
+* Scenario one
+  * 저자는 3개 커밋 로그를 남겼다
+  * 4번째 커밋이 잘못됐다
+  * 3번째 커밋으로 되돌리고 싶다(로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화 시키고 싶다)
+  * reset 혹은 revert을 할 지 햇갈린다
+  * 3번째 커밋으로 돌아가는 revert를 시도 하였다.
+  * 저자의 예상: 로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화가 일어났다)
+  * 실제 결과: to be continued....
+* revert vs reset
+   *
 ### 컴퓨터 네트워크
 
 *  Layer 1 관련 개념
