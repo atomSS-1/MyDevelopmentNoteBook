@@ -122,9 +122,71 @@
   -  redhet ec2에 로그인 성공  
   ![86698423-4078e880-c04a-11ea-8856-feff4e508fcd](https://user-images.githubusercontent.com/12722674/87238602-887b7f00-c43f-11ea-9408-caadeb6d155d.png)
 
+ ## Github actions를 통한 CI/CD 구축 (수정요망)
+  - 배포 환경: AWS elastic beansstalk, docker
+  1. `npx create-react-app` 으로 샘플 보일러플레이트 앱을 만든다.
+  2. Dockerfile을 만든다.
+  
+  ```
+FROM node:16
+WORKDIR '/app'
+COPY package.json ./
+RUN npm install
+COPY . .
+RUN npm run build
 
-  
-  
+#FROM nginx
+#COPY --from=0 /app/build /usr/share/nginx/html
+  ```
+  3. github에 레포지토리를 만든다
+  4. aws elastic beanstalk에 환경을 구축한다.
+  5. github 마스터 브렌치에 푸시한다.
+  6. github actions에 워크플로우를 세팅한다.
+ 
+```
+    name: Deployment From Github To AWS
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Latest Repo
+        uses: actions/checkout@master
+        
+      - name: Generate Deployment Package 
+        run: zip -r deploy.zip * -x "**node_modules**"
+        
+      - name: Get timestamp
+        uses: gerred/actions/current-time@master
+        id: current-time
+        
+      - name: Run string replace
+        uses: frabert/replace-string-action@master
+        id: format-time
+        with:
+          pattern: '[:\.]+'
+          string: "${{ steps.current-time.outputs.time }}"
+          replace-with: '-'
+          flags: 'g'
+          
+      - name: Deploy to EB
+        uses: k89jy/beanstalk-deploy@v18
+
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: simple-engineer-deployment-tutorial
+          environment_name: SimpleEngineerDeploymentTutorial-env
+          version_label: "the-simple-engineer-deployment-${{ steps.format-time.outputs.replaced }}"
+          region: ap-northeast-1
+          deployment_package: deploy.zip
+ ```
+   6. github settings 에서 AWS_ACCESS_KEY_ID와 AWS_SECRET_ACCESS_KEY를 등록한다.
+   7. 세팅을 완료한다.
+   8. 코드를 마스터 브랜치에 푸시하면 CI/CD가 실행된다.
 ### DataBasse
 
   *   RDS(Relational DataBase Service)
