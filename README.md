@@ -10,6 +10,7 @@
   * 실제 결과: to be continued....
 * revert vs reset
    * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다 continued....
+   * https://velog.io/@njs04210/Git-reset%EA%B3%BC-revert-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0  <--참고하자
 ### 컴퓨터 네트워크
 
 *  Layer 1 관련 개념
