@@ -302,7 +302,10 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
      *   `python3 --version`
  
   *  파이썬 실행  
-     *   `python3`  
+     *   `python3`
+   
+  * 어떤 라이브러리가 설치되어 있는지 확인하기
+    *   pip list
     
 ### PostMan
 
