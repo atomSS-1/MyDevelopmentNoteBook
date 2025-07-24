@@ -1,3 +1,4 @@
+### Reason: Get to forget what I did for programming previously so record it in order to not reapeat same mistake other word repuce duplicate dibbuging
 ### 개발 기록
 ### Git
 * Scenario one
