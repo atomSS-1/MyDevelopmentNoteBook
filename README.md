@@ -189,7 +189,19 @@ jobs:
    6. github settings 에서 AWS_ACCESS_KEY_ID와 AWS_SECRET_ACCESS_KEY를 등록한다.
    7. 세팅을 완료한다.
    8. 코드를 마스터 브랜치에 푸시하면 CI/CD가 실행된다.
-### DataBasse
+# DataBase softwares
+
+## DataBase types
+
+### Relational Databases:
+     *  MySQL, Oracle, PostgreSQL, SQLite, SQL Server, Sybase, OpenEdge SQL
+### Key-value stores:
+     *  Berkeley DB, memcached, redis
+### Document oriented Stores:
+     *  couchDB, mongoDB
+### Graph DataBases:
+     *  Neo4j, AWS Neptune, Sesame, AllegroGraph, different RDF/triplestores
+
 
   *   RDS(Relational DataBase Service)
       *  rds 생성  
@@ -206,8 +218,11 @@ jobs:
       
       *  MySql 1:1, 1:n, n:m 구조 설명: [참고](https://victorydntmd.tistory.com/30)
       *  MySql ACID 설명: [참고](https://victorydntmd.tistory.com/129)
+   
+  *  MySql vs graphDB:[참고](https://liz09045.tistory.com/142)
+  *  MySql vs redis:[참고](https://m1nomi.tistory.com/25)
       
- 
+ *   Neo4j 설치 과정: [참고](https://1004jonghee.tistory.com/entry/Neo4j-Desktop-%EC%84%A4%EC%B9%98)
  
  *   MongoDB
  
