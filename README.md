@@ -1,6 +1,6 @@
 ### Reason: Get to forget what I did for programming previously so record it in order to not reapeat same mistake other word repuce duplicate debugging
 ### 개발 기록
-### Git
+### Git 사용 시나리오 1
 * Scenario one
   * 저자는 3개 커밋 로그를 남겼다
   * 4번째 커밋이 잘못됐다
@@ -12,6 +12,8 @@
 * revert vs reset
    * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다 continued....
    * https://velog.io/@njs04210/Git-reset%EA%B3%BC-revert-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0  <--참고하자
+ ### Git 용어 정리
+ * https://ordo.tistory.com/132
 ### 컴퓨터 네트워크
 
 *  Layer 1 관련 개념
