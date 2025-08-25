@@ -408,3 +408,7 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
    *   협업 도구인 Trello 사용법을 알아보자  
    
    [Trello 링크](https://trello.com/?&aceid=&adposition=&adgroup=105703216008&campaign=9843285496&creative=437184392125&device=c&keyword=%2Btrello&matchtype=b&network=g&placement=&ds_kids=p53016482385&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=Cj0KCQjw3ZX4BRDmARIsAFYh7ZKwFUSDuqnxqn_binH58nRGZ8kuIiJWJUMzUtjGJ8YBDesJJePC9m0aAtxaEALw_wcB&gclsrc=aw.ds)
+
+
+### 성능 개선 방법
+https://chatgpt.com/s/t_68abca8a6af48191acaae03c7213d271
