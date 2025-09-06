@@ -347,6 +347,8 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
 
 ### Juypeter noteBook
 
+### Gen Ai 관련: https://chatgpt.com/s/t_68bc23ea54e08191b55c57565c3ff0c3
+
 ### Docker
 
    
