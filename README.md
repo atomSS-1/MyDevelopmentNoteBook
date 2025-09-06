@@ -36,6 +36,9 @@
 * OSI 7 계층 요약
    * https://chatgpt.com/s/t_68a7c2a6f4a081918b533658634c9c08
    * Just a Fact: 단말기 사이에 통신은 MAC adress를 사용 하여 통신한다. ARP가 단말기 사이 MAC 주소를 서로 알려주는 기능을 담담한다.
+ 
+* 서버-클라이언트 연결 방식
+   *  https://chatgpt.com/s/t_68bc220a6c7881919c9fb4c7725af56c 
 
 ### Linux
 
