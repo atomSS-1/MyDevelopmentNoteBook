@@ -417,3 +417,4 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
 
 ### 성능 개선 방법
 https://chatgpt.com/s/t_68abca8a6af48191acaae03c7213d271
+https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio
