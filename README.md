@@ -15,8 +15,8 @@
 * revert vs reset
    * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다 continued....
    * https://velog.io/@njs04210/Git-reset%EA%B3%BC-revert-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0  <--참고하자
- ### Git 용어 정리
- * https://ordo.tistory.com/132
+ ### [Git 용어 정리](https://ordo.tistory.com/132)
+ 
 ### 컴퓨터 네트워크
 
 *  OSI Layer 1 관련 개념
@@ -40,9 +40,8 @@
    * https://chatgpt.com/s/t_68a7c2a6f4a081918b533658634c9c08
    * Just a Fact: 단말기 사이에 통신은 MAC adress를 사용 하여 통신한다. ARP가 단말기 사이 MAC 주소를 서로 알려주는 기능을 담담한다.
  
-* 서버-클라이언트 연결 방식
-   *  https://chatgpt.com/s/t_68bc220a6c7881919c9fb4c7725af56c 
-
+* [서버-클라이언트 연결 방식](https://chatgpt.com/s/t_68bc220a6c7881919c9fb4c7725af56c )
+  
 ### Linux
 
 *  ubuntu
@@ -334,11 +333,11 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
   * 어떤 라이브러리가 설치되어 있는지 확인하기
     *   pip list
    
-  * 파이썬 컴파일에 관하여: https://stackoverflow.com/questions/471191/why-compile-python-code  
+  * (파이썬 컴파일에 관하여)[https://stackoverflow.com/questions/471191/why-compile-python-code]
     
 ### PostMan
 
-   * 포스트맨 다운로드 [다운로드 링크](https://www.postman.com/downloads/)
+   * [포스트맨 다운로드](https://www.postman.com/downloads/)
 
 ### MySql Workbench
 
@@ -352,8 +351,8 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
 
 ### Juypeter noteBook
 
-### Gen Ai 관련: https://chatgpt.com/s/t_68bc23ea54e08191b55c57565c3ff0c3
-### LlamaIndex 강의: https://www.youtube.com/@LlamaIndex
+### [Gen Ai 관련 요약](https://chatgpt.com/s/t_68bc23ea54e08191b55c57565c3ff0c3)
+### [LlamaIndex 강의](https://www.youtube.com/@LlamaIndex)
 
 ### Docker
 
@@ -422,6 +421,6 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
 
 
 ### 성능 개선 방법
-https://chatgpt.com/s/t_68abca8a6af48191acaae03c7213d271
+[Multi-proccessing, Multi-Threading, Non-blocking](https://chatgpt.com/s/t_68abca8a6af48191acaae03c7213d271)
 
-https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio
+[참고](https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio)
