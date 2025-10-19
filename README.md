@@ -13,9 +13,10 @@
   * 저자의 예상: 로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화가 일어났다)
   * 실제 결과: to be continued....
 * revert vs reset
-   * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다 continued....
-   * https://velog.io/@njs04210/Git-reset%EA%B3%BC-revert-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0  <--참고하자
- ### [Git 용어 정리](https://ordo.tistory.com/132)
+   * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다
+   * [continued....](https://chatgpt.com/share/68f451e5-d680-8000-ad1f-78e804b7e3d1)
+  
+ ### [Git 용어 정리](https://chatgpt.com/share/68f450ff-91f8-8000-a12a-5eb343d94281)
  
 ### 컴퓨터 네트워크
 
@@ -35,10 +36,11 @@
 * layer 1 정리 결론
   *  네트워크가 초기에 구성될때의 모습이다. IP 프로토콜이 만들어지기 이전의 네트워크 구성이다.
 
+* [사설 IP, 공용 IP 차이](https://chatgpt.com/share/68f45007-02d0-8000-b0f3-d168067e94f6)
 
-* OSI 7 계층 요약
-   * https://chatgpt.com/s/t_68a7c2a6f4a081918b533658634c9c08
-   * Just a Fact: 단말기 사이에 통신은 MAC adress를 사용 하여 통신한다. ARP가 단말기 사이 MAC 주소를 서로 알려주는 기능을 담담한다.
+* [OSI 7 계층 요약](https://chatgpt.com/s/t_68a7c2a6f4a081918b533658634c9c08)
+   
+   * 저자 해석: 단말기 사이에 통신은 MAC adress를 사용 하여 통신한다. ARP가 단말기 사이 MAC 주소를 서로 알려주는 기능을 담담한다.
  
 * [서버-클라이언트 연결 방식](https://chatgpt.com/s/t_68bc220a6c7881919c9fb4c7725af56c )
   
@@ -54,7 +56,7 @@
       *  사용자 및 그룹 작동하기
          *  su 혹은 sudo로 root 사용자를 사용한다
       *  root 로그인을 비활성화 시켜 보안을 강화한다.
-      *  root 유저 비밀번호 변경 참고:[URL](https://studyforus.tistory.com/223)
+      *  [root 유저 비밀번호 변경](https://chatgpt.com/share/68f4514c-e4e0-8000-91b4-0dc1c76ee8b6)
     
    *  내장된 방화벽 추축하기
    *  시스템 로그 구성하기
@@ -67,10 +69,10 @@
       * df -h --total
    *  그 외 [Linux man pages](https://linux.die.net/man/) 참고
    
-   * 로그 기록 작업: [참고](http://blog.naver.com/PostView.nhn?blogId=innerbus_co&logNo=221439737250&parentCategoryNo=&categoryNo=11&viewDate=&isShowPopularPosts=true&from=search)
+   * 로그 기록 작업: [참고](https://chatgpt.com/share/68f4527a-5c44-8000-a825-9dcc585e238e)
    
    
-   * 백업 작업: [참고](https://mamya.tistory.com/224)  
+   * 백업 작업: [참고](https://chatgpt.com/share/68f452ab-332c-8000-b151-e2443589c507)  
    * vim
       *  copy & paste: [참고](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
    * history 명령어 실행: [보기](https://unix.stackexchange.com/questions/275053/is-there-any-way-to-execute-commands-from-history)
@@ -223,15 +225,15 @@ jobs:
       ![86885964-1f3ef780-c131-11ea-9cd2-90c8978739f9](https://user-images.githubusercontent.com/12722674/87238665-836aff80-c440-11ea-8d9e-146b4579254f.png)
 
       
-  *   Nosql vs MySql:[참고](https://siyoon210.tistory.com/130)
+  *   [Nosql vs MySql](https://chatgpt.com/share/68f4552d-9c14-8000-bd5c-8a4ca3d3882d)
       
-      *  MySql 1:1, 1:n, n:m 구조 설명: [참고](https://victorydntmd.tistory.com/30)
-      *  MySql ACID 설명: [참고](https://victorydntmd.tistory.com/129)
+      *  [MySql 1:1, 1:n, n:m 구조 설명](https://chatgpt.com/share/68f4555c-9b3c-8000-90ae-ca50a25bcc59)
+      *  [MySql ACID 설명](https://chatgpt.com/share/68f45591-0c30-8000-8ea7-b54e507b1912)
    
-  *  MySql vs graphDB:[참고](https://liz09045.tistory.com/142)
-  *  MySql vs redis:[참고](https://m1nomi.tistory.com/25)
+  *  [MySql vs graphDB](https://chatgpt.com/share/68f455ba-f140-8000-a235-87348535c5cd)
+  *  [MySql vs redis](https://chatgpt.com/share/68f455ff-93c8-8000-9390-0012d74af45e)
       
- *   Neo4j 설치 과정: [참고](https://1004jonghee.tistory.com/entry/Neo4j-Desktop-%EC%84%A4%EC%B9%98)
+ *   [Neo4j 설치 과정](https://chatgpt.com/s/t_68f4597bd5648191b2351c92e222b0e4)
  
  *   MongoDB
  
@@ -259,12 +261,12 @@ jobs:
  
           package.json 파일
        *  `npm install expresss --save` 을 통해 express를 설치한다.
-       *  다음 프로세스: [참고](https://www.deok.me/entry/NodeJS-NodeJS-Express-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
+       *  다음 프로세스: [참고](https://chatgpt.com/share/68f454ee-47f8-8000-be37-1cc5e0a09738)
      * express 폴더 구조 
        * `npm install -g express-generator`  
        *   `express` 명령어를 통해 folder 구조를 잡는다.
        *  미들웨어 작성: [참고](https://expressjs.com/ko/guide/using-middleware.html)  
-       *  html 파일 랜더링: [참고](http://jeonghwan-kim.github.io/express-js-3-%ED%85%9C%ED%94%8C%EB%A6%BFjade/)
+       *  html 파일 랜더링: [참고](https://chatgpt.com/share/68f454ae-20c8-8000-a5be-730b39c4e6ca)
        *  라우터 파일  
        `res.render('[파일명].html`, [json 포맷]'
        *  app.js 파일 코드  
@@ -333,7 +335,8 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
   * 어떤 라이브러리가 설치되어 있는지 확인하기
     *   pip list
    
-  * (파이썬 컴파일에 관하여)[https://stackoverflow.com/questions/471191/why-compile-python-code]
+  * [파이썬 컴파일에 관하여](https://stackoverflow.com/questions/471191/why-compile-python-code)
+    * 저자 생각:[파이썬은 high level interpret 프로그래밍 언어이며 인터프리터는 저급 언어에 비해 프레임과 유사하다.](https://github.com/atomSS-1/Compilers-and-Interpreters-and-others)
     
 ### PostMan
 
