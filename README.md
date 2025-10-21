@@ -1,6 +1,6 @@
 ### Reason: Get to forget what I did for programming previously so record it in order to not reapeat same mistake other word repuce duplicate debugging
 ### 개발 기록
-### UML
+### [UML](https://github.com/atomSS-1/UML-PRACTICE)
 ### Git 사용 시나리오 1
 ## 참고 
 * [깃 명령어](https://chatgpt.com/s/t_68e62730713881918584879c431fbb10)
