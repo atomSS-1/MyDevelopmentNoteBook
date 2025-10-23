@@ -10,7 +10,7 @@
   * 3번째 커밋으로 되돌리고 싶다(로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화 시키고 싶다
   * reset 혹은 revert을 할 지 햇갈린다
   * 3번째 커밋으로 돌아가는 revert를 시도 하였다.
-  * 저자의 예상: 로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화가 일어났다)
+  * 저자의 예상: 로컬저장소 혹은 working directory에도 3번째 커밋으로 동기화가 일어났다
   * 실제 결과: to be continued....
 * revert vs reset
    * reset은 Head를 변경시키고 revert는 Head를 최신상태로 유지하면 서 변경시킨다
