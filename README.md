@@ -394,7 +394,7 @@ const 최초의 할당한 데이터를 변경 할수 없다(상수 선언)
    
    `sudo docker run hello-world`
    
-   * Docker ngnix 설치 실습 [참고]:(https://minimilab.tistory.com/8)
+   * Docker ngnix 설치 실습 [참고]:(https://chatgpt.com/s/t_68f974af87488191a2992c6c9f37d2dc)
    
       ***  
    ![ngxnix](https://user-images.githubusercontent.com/12722674/90309683-89636d00-df25-11ea-9c17-3861e1a03412.PNG)  
