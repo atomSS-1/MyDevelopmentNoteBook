@@ -279,7 +279,7 @@ jobs:
 hoisting
 
 1. 변수 선언이 함수 맨 위로 간다
- 예시 코드 ))
+ 예시 코드 
 ```
 var a = "first"
 var b = "second"
