@@ -1,6 +1,8 @@
 ### Reason: Get to forget what I did for programming previously so record it in order to not reapeat same mistake other word repuce duplicate debugging
 ## [Compilers](https://github.com/atomSS-1/Compilers-and-Interpreters-and-others)
+
 ### 개발 기록
+
 ### [UML](https://github.com/atomSS-1/UML-PRACTICE)
 ### Git 사용 시나리오 1
 ## 참고 
@@ -18,7 +20,10 @@
    * [continued....](https://chatgpt.com/share/68f451e5-d680-8000-ad1f-78e804b7e3d1)
   
  ### [Git 용어 정리](https://chatgpt.com/share/68f450ff-91f8-8000-a12a-5eb343d94281)
- 
+
+
+### React.js vs React Native
+React Native 개발 환경 셋업 방식.
 ### 컴퓨터 네트워크
 
 *  OSI Layer 1 관련 개념
