@@ -84,7 +84,7 @@ React Native 개발 환경 셋업 방식.
    * history 명령어 실행: [보기](https://unix.stackexchange.com/questions/275053/is-there-any-way-to-execute-commands-from-history)
 *  centOs
    *  about CentOs
-      *  레드헷 제휴로 개발한 커뮤터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
+      *  레드헷 제휴로 개발한 컴퓨터 운영체제이다. 무료 기업용 컴퓨팅 플랫폼을 제공할 목적으로 만들어진 리눅스계 운영 체제 가운데 하나이다.
       *  레드헷 엔터프라이즈 리눅스의 소스 코드를 그대로 가져와 빌드해 내놓으며 이과정에서 이루어지는 변형은 레드헷의 상표가 잘리고 그자리에 CentOS의 상표가 붙는(상표권 분쟁을 피하기 위해)
       정도뿐이다.
       *  [공식 웹사이트](https://www.centos.org/)
