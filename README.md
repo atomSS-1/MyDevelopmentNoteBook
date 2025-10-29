@@ -24,6 +24,8 @@
 
 ### React.js vs React Native
 React Native 개발 환경 셋업 방식.
+Bare work flow
+Managed work flow
 ### 컴퓨터 네트워크
 
 *  OSI Layer 1 관련 개념
